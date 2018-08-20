@@ -5,7 +5,7 @@ Run the application:
 To run the application, just build the source and run dist/RawToJPEGconverter.jar
 
 User help:
-1. Brose to the .raw file
+1. Browse to the .raw file
 2. Enter the width and height of the output image
 3. Hit 'Convert'
 
