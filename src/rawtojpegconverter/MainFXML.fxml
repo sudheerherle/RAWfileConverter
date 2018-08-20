@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="149.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rawtojpegconverter.MainFXMLController">
+   <children>
+      <VBox layoutX="6.0" layoutY="6.0" prefHeight="132.0" prefWidth="589.0">
+         <children>
+            <HBox layoutX="6.0" layoutY="6.0" prefHeight="125.0" prefWidth="589.0">
+               <children>
+                  <Pane layoutX="6.0" layoutY="6.0" prefHeight="117.0" prefWidth="589.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" text="Raw File:" />
+                        <TextField fx:id="PathImg" layoutX="67.0" layoutY="10.0" prefHeight="25.0" prefWidth="449.0" />
+                        <Button fx:id="Browse" layoutX="523.0" layoutY="10.0" mnemonicParsing="false" onAction="#BrowseRawFile" text="Browse" />
+                        <Button fx:id="Convert" layoutX="10.0" layoutY="86.0" mnemonicParsing="false" onAction="#ConvertAction" prefHeight="37.0" prefWidth="568.0" text="Convert" />
+                        <Label layoutX="14.0" layoutY="54.0" text="Width:" />
+                        <TextField fx:id="widthtext" layoutX="60.0" layoutY="50.0" prefHeight="25.0" prefWidth="54.0" />
+                        <Label layoutX="127.0" layoutY="54.0" text="Height:" />
+                        <TextField fx:id="heighttext" layoutX="175.0" layoutY="50.0" prefHeight="25.0" prefWidth="63.0" />
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="13.0" layoutY="141.0" prefHeight="25.0" prefWidth="576.0">
+         <children>
+            <Label fx:id="statuslabel" prefHeight="16.0" prefWidth="573.0" text="Status:" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
