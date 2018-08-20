@@ -13,3 +13,4 @@ To run the application, just build the source and run dist/RawToJPEGconverter.ja
 
 <b>Note:</b><br/>
 The output file is "converted.jpeg" and will be generated in the same folder level as your input .raw file.
+Visit http://sudheerherle.com/2018/08/20/raw-file-to-jpeg-converter/
