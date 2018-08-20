@@ -114,7 +114,7 @@ public class MainFXMLController implements Initializable {
             Logger.getLogger(RawToJPEGconverter.class.getName()).log(Level.SEVERE, null, ex);
             return false;
         }
-        File f_out = new File(f.getParent()+"\\converted.jpg");
+        File f_out = new File(f.getParent()+"\\converted.jpeg");
         try {
             f_out.createNewFile();
         } catch (IOException ex) {
